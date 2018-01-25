@@ -73,7 +73,10 @@ var config = {
 	return trow;
   }
 
+
+
  $("#remove-train").click(function(){
-    
+
+    $("tr").last().remove();
 
  });
